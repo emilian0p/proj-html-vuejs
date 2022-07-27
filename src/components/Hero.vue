@@ -15,7 +15,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .hero {
     background-image: url("../assets/home_slider_bg.jpg");
     background-size: cover;

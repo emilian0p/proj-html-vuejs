@@ -1,17 +1,20 @@
 <template>
     <main>
         <Hero />
-        <Forum />
+        <AvadaDivider />
+        <LastNews />
     </main>
 </template>
 
 <script>
 import Hero from "./Hero.vue";
-import Forum from "./Forum.vue";
+import AvadaDivider from "./AvadaDivider.vue";
+import LastNews from "./LastNews.vue";
 export default {
     components: {
         Hero,
-        Forum,
+        AvadaDivider,
+        LastNews
     },
 };
 </script>

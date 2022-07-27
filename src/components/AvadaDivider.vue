@@ -23,7 +23,7 @@ export default {
     height: 40vh;
     background-color: #eee3d6;
 }
-.container h3 {
+.container h3{
     color: #62676c;
     font-size: .8rem;
     margin-bottom: 1rem;
