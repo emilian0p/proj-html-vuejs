@@ -46,7 +46,7 @@ export default {
 }
 .hero-description {
     font-size: 1rem;
-    color: #fff;
+    color: #aeaeae;
     margin-bottom: 2rem;
 }
 .main-btn {
@@ -56,6 +56,7 @@ export default {
     font-weight: bold;
     color: #27aabe;
     cursor: pointer;
+    border: none;
 }
 .main-btn a {
     color: #fff;
