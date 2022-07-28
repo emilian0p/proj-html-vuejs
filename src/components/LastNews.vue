@@ -65,9 +65,9 @@
                 </div>
                 <div class="aside-container">
                         <div class="second-big-article">
-                            <h3>FEATURED ARTICLE</h3>
-                            <p class="semi-title">Cras malesuada et orci eget pharetra</p>
-                            <p class="description">
+                            <h3>REVIEWED PRODUCT</h3>
+                            <p class="second-semi-title">Mauris viverra atisan ipsum eget felis primis efficitur varius</p>
+                            <p class="second-description">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                             </p>
                             <button class="btn"><a href="#">READ MORE ></a></button>
@@ -97,119 +97,124 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div#home{
+div#home {
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh;
+    width: 70%;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 40rem;
-}
-div h3{
-    font-size: .8rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-}
-div p{
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    font-weight: bold;
+    margin-bottom: 45rem;
+    margin-top: 5rem;
 
-}
-.space{
-    background-color: #fc8c5e;
-    height: 2px;
-    width: 60px;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 20px;
-}
-div.articles-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 2rem;
-
-}
-div.article{
-    margin: 0 2rem 0 2rem;
-    display: inline-block;
-    height: 15rem;
-}
-div.article p{
-    font-size: .7rem;
-    margin-bottom: 1rem;
-    color: #aeaeae;
-}
-div img{
-    width: 100%;
-}
-div.big-article{
-    width: 90%;
-    height: 40vh;
-    background-image: url("../assets/featured_article_1_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 4rem;
-    padding-top: 8rem;
-    color: #fff;
-}
-div.big-article h3{
-    font-size: .6rem;
-}
-div p.semi-title{
-    font-size: 1.5rem;
-}
-div p.description{
-    font-size: .5rem;
-}
-.btn{
-    background-color: black;
-    color: #fff;
-    border: none;
-    padding: .5rem;
-    margin-top: 1rem;
-}
-.btn a{
-    color: #fff;
-    text-decoration: none;
-}
-div.second-big-article{
-    background-image: url("../assets/featured_article_1_bg.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 4rem;
-    padding-top: 8rem;
-    color: #fff;
-    height: 100%;
-}
-div.aside-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-right: 1rem;
-}
-div.second-big-article{
-    margin-right: 2rem;
-}
-div.second-big-article h3{
-    font-size: .6rem;
-}
-aside h2{
-    font-size: 1.3rem;
-}
-aside {
-    width: 30%;
-    height: 100%;
-    background-color: #fff;
-    padding: 2rem;
-    
+        h3 {
+            font-size: .8rem;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            
+        }
+        .last-news-description {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        .space{
+            background-color: #fc8c5e;
+            height: 2px;
+            width: 4rem;
+            justify-content: center;
+            align-content: center;
+            margin-bottom: 20px;
+        }
+        .articles-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        .article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 30%;
+            height: 15rem;
+            margin-bottom: 2rem;
+            margin-top: 2rem;
+                p{
+                    font-size: .7rem;
+                    margin-bottom: 1rem;
+                    color: #aeaeae;
+                }
+        }
+        .article img {
+            width: 100%;
+            height: 100%;
+        }
+        .article h5 {
+            font-size: .8rem;
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+        }
+        .big-article{
+            width: 100%;
+            height: 40rem;
+            background-image: url("../assets/featured_article_1_bg.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 6rem;
+            padding-top: 10rem;
+            margin-bottom: 2rem;
+            color: #fff;
+            text-align: start;
+        }
+        .btn{
+            background-color: black;
+            color: #fff;
+            border: none;
+            padding: .5rem;
+            margin-top: 1rem;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                }
+        }
+        p.semi-title{
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        p.description{
+            font-size: .5rem;
+        }
+        .aside-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 2rem;
+                .second-big-article{
+                    background-image: url("../assets/featured_article_1_bg.jpg");
+                    background-size: cover;
+                    text-align: start;
+                    padding: 4rem;
+                    padding-top: 8rem;
+                    margin-right: 2rem;
+                    color: #fff;
+                    height: 100%;
+                        .second-semi-title{
+                            font-size: 1.5rem;
+                            margin-bottom: .5rem;
+                            font-weight: bold;
+                        }
+                        .second-description{
+                            font-size: .5rem;
+                        }
+                }
+        }    
 }
 </style>
