@@ -10,7 +10,7 @@
                 <div class="forum-items-container"><p>Microsoft Forum</p></div>
                 <div class="forum-items-container"><p>Android Forum</p></div>
             </div>
-            <div class="container">
+            <div class="container bot">
                 <div class="forum-items-container"><p>General Discussion</p></div>
                 <div class="forum-items-container"><p>Apps & Software</p></div>
                 <div class="forum-items-container"><p>Gadgets and stuff</p></div>
@@ -38,7 +38,7 @@ div#back{
         h3 {
             font-size: .8rem;
             margin-bottom: 1rem;
-            margin-top: 12rem;
+            margin-top: 2rem;
         }
         .font {
             font-size: 2rem;
@@ -74,6 +74,9 @@ div#back{
                                 font-size: .7rem;
                                 margin-right: 2rem;
                             }
+                    }
+                    .bot{
+                        margin-bottom: 5rem;
                     }
             }
         }

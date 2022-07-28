@@ -5,6 +5,7 @@
         <LastNews />
         <Spacer />
         <Forum />
+        <Spacer />
     </main>
 </template>
 
