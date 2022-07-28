@@ -104,6 +104,7 @@ div#home{
     height: 100vh;
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-bottom: 22rem;
 }
 div h3{
     font-size: .8rem;
