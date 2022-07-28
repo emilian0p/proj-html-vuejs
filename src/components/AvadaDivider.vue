@@ -20,8 +20,9 @@ export default {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 40vh;
+    height:25vh;
     background-color: #eee3d6;
+    margin-bottom: 30px;
 }
 .container h3{
     color: #62676c;
