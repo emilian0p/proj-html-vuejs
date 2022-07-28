@@ -104,7 +104,7 @@ div#home{
     height: 100vh;
     margin-left: 5rem;
     margin-right: 5rem;
-    margin-bottom: 22rem;
+    margin-bottom: 40rem;
 }
 div h3{
     font-size: .8rem;
@@ -137,7 +137,7 @@ div.articles-container{
 div.article{
     margin: 0 2rem 0 2rem;
     display: inline-block;
-    height: 11rem;
+    height: 15rem;
 }
 div.article p{
     font-size: .7rem;
@@ -186,6 +186,7 @@ div.second-big-article{
     padding: 4rem;
     padding-top: 8rem;
     color: #fff;
+    height: 100%;
 }
 div.aside-container{
     display: flex;
@@ -203,5 +204,12 @@ div.second-big-article h3{
 }
 aside h2{
     font-size: 1.3rem;
+}
+aside {
+    width: 30%;
+    height: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    
 }
 </style>
